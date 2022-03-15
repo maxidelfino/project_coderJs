@@ -46,7 +46,7 @@
                 <h1>Dejanos tus dudas para ayudarte a resolverlas</h1>
             </article>
             <article class="form__form">
-                <form >
+                <form id="form">
                     <section class="form__datos d-flex flex-column-md container-fluid pe-5 ps-5">
                         <div class="row">
                             <label class="col-sm-12 col-md-12 col-lg-12" for="name">Nombre:</label> <br>
@@ -54,7 +54,7 @@
                             <label for="apellido">Apellido:</label><br>
                                 <input type="text" name="apellido" id="apellido" placeholder="Escriba su apellido" required><br><br>
                             <label class="mail" for="mail">Email:</label> <br>
-                                <input type="email" name="mail" id="mail" placeholder="Escriba su email" readonly> <br><br>
+                                <input type="email" name="mail" id="mail" placeholder="Escriba su email" required> <br><br>
                         </div>
                     </section> 
                     <section class="form__consulta">
@@ -64,7 +64,7 @@
                             <option value="proyecto">Consulta sobre proyectos</option>
                             <option value="otro">Otro</option>
                         </select><br><br>
-                        <textarea name="Consulta" id="Consulta" cols="30" rows="7" placeholder="Escribe tu consulta"></textarea><br><br>
+                        <textarea name="Consulta" id="Consulta" cols="30" rows="7" placeholder="Escribe tu consulta" required></textarea><br><br>
                             <input class="button" type="submit" value="Enviar formulario">
                     </section>  
                 </form>
